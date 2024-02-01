@@ -2,6 +2,13 @@ from .enums import *
 
 
 def lister(str_list: str, typ: Typ | None = Typ.auto) -> list:
+    """
+    The str_list is a string with a list separated by a comma or a space, for example.
+    The type does not have to be specified because this is done automatically.
+    :param str_list:
+    :param typ:
+    :return: list
+    """
     if typ == Typ.auto:
         if " " in str_list and "," not in str_list:
             typ = Typ.space
