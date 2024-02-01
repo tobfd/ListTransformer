@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ListTransformer"
-version = "0.1.6"
+version = "0.1.7"
 description = "My package to convert str-list and list-str."
 authors = ["Tobias Schmitt <tobias.schmitt2009@gmail.com>"]
 readme = "README.md"
