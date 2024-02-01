@@ -1,4 +1,10 @@
 # ListTransformer
+![GitHub last commit](https://img.shields.io/github/last-commit/tobfd/ListTransformer?style=for-the-badge&logo=Github)
+![GitHub forks](https://img.shields.io/github/forks/tobfd/ListTransformer?style=for-the-badge&logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/tobfd/ListTransformer?style=for-the-badge&logo=github)
+![GitHub contributors](https://img.shields.io/github/contributors/tobfd/ListTransformer?style=for-the-badge&logo=github)
+![GitHub followers](https://img.shields.io/github/followers/tobfd?style=for-the-badge&logo=github)
+
 ## Installation
 ``pip install ListTransformer``
 
