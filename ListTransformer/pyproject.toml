@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "py_lister"
+name = "ListTransformer"
 version = "0.1.0"
 description = ""
 authors = ["Tobias Schmitt <tobias.schmitt2009@gmail.com>"]
