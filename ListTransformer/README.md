@@ -1,4 +1,4 @@
-# Lister
+# ListTransformer
 ## Installation
 ``pip install ListTransformer``
 

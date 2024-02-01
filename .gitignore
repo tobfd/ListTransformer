@@ -1,5 +1,3 @@
-/test.py
-.venv
 .idea
-/.idea
-/.venv
+.venv
+__pycache__
