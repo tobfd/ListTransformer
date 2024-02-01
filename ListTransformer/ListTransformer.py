@@ -39,5 +39,6 @@ def str_list(list_list: list, split: Splits | None = Splits.comma) -> str:
     else:
         split = default
     for index, element in enumerate(list_list):
-        str_list += f"{split if (split and index != 0) else nothing}" + element
+        if element != "":
+            str_list += f"{split if (split and index != 0) else nothing}" + str(element)
     return str_list
