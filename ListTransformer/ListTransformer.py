@@ -81,13 +81,15 @@ def __get_len__(liste: list, target):
     return _len
 
 
-def intersection(list1: list, list2: list) -> list | None:
+def intersection(list1: list, list2: list, typ: Tools | None = Tools.same) -> list | None:
     intersection = []
     big_list = list1 if (len(list1) >= len(list2)) else list2
     tiny_list = list2 if (len(list2) <= len(list1)) else list1
     for entry in big_list:
         if entry in tiny_list:
-            if entry not in intersection:
+            if entry not in intersection and typ == Tools.no_same:
+                intersection.append(entry)
+            elif typ == Tools.same:
                 intersection.append(entry)
     return intersection if intersection else None
 
