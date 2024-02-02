@@ -3,6 +3,7 @@ from enums import *
 
 def lister(str_list: str, typ: Typ | None = Typ.auto) -> list | None:
     """
+    Converts strings to lists.
     :param str_list: The str_list is a string with a list separated by a comma or a space, for example.
     :param typ: The type does not have to be specified because this is done automatically.
     :return: list
@@ -30,6 +31,7 @@ def lister(str_list: str, typ: Typ | None = Typ.auto) -> list | None:
 
 def str_list(list_list: list, split: Splits | None = Splits.comma) -> str:
     """
+    Convert lists to strings.
     :param list_list: The list to be converted into a string.
     :param split: The way the entries should be separated from each other.
     :return: str
@@ -81,19 +83,29 @@ def __get_len__(liste: list, target):
     return _len
 
 
-def intersection(list1: list, list2: list) -> list | None:
+def intersection(list1: list, list2: list, typ: Tools | None = Tools.same) -> list | None:
+    """
+    Shows the entries that are the same.
+    :param list1: The first list.
+    :param list2: The secend list.
+    :param typ: The type whether entries should occur twice. (ListTransformer.Tools.no_same) Default: ListTransformer.Tools.same
+    :return: list or None
+    """
     intersection = []
     big_list = list1 if (len(list1) >= len(list2)) else list2
     tiny_list = list2 if (len(list2) <= len(list1)) else list1
     for entry in big_list:
         if entry in tiny_list:
-            if entry not in intersection:
+            if entry not in intersection and typ == Tools.no_same:
+                intersection.append(entry)
+            elif typ == Tools.same:
                 intersection.append(entry)
     return intersection if intersection else None
 
 
 def combine(list1: list, list2: list, typ: Tools | None = Tools.same) -> list | None:
     """
+    returns the two lists combined into one.
     :param list1: The first list to combine.
     :param list2: The secend list to combine.
     :param typ: The type whether entries should occur twice. (ListTransformer.Tools.no_same) Default: ListTransformer.Tools.same
