@@ -10,3 +10,8 @@ class Typ(Enum):
     auto = 0
     comma = 1
     space = 2
+
+
+class Tools(Enum):
+    same = 0
+    no_same = 1
