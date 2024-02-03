@@ -27,6 +27,8 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 html_static_path = ["_static"]
 
+html_theme = "furo"
+
 html_title = f"<h3 align='center'>{release}</h3>"
 html_logo = "_static/listtransformer_logo.png"
 html_favicon = "_static/icologo.ico"
