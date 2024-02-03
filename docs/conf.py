@@ -21,6 +21,11 @@ extensions = [
     "sphinx_copybutton",
 ]
 
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
+
 simplify_optional_unions = True
 
 autodoc_member_order = "bysource"
