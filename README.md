@@ -3,15 +3,6 @@
 ``pip install ListTransformer``
 
 ## Examples
-
-````py
-import ListTransformer
-
-liste = ListTransformer.lister("123 123 123")
-print(liste)
-print(ListTransformer.str_list(liste))
-````
-
 ### lister
 Converts strings to lists.
 

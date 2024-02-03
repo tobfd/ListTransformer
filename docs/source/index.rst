@@ -6,11 +6,6 @@ Installation
 
 Examples
 ---------------
-import ListTransformer
-
-liste = ListTransformer.lister("123 123 123")
-print(liste)
-print(ListTransformer.str_list(liste))
 
 
 lister
