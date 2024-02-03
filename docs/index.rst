@@ -17,6 +17,6 @@ Example
 --------------
 A quick example of how ListTransformer works. You can find more examples :doc:`here </examples/examples>`.
 
-.. literalinclude:: ../../examples/lister.py
+.. literalinclude:: ../examples/lister.py
    :language: python
    :caption: lister
