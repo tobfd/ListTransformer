@@ -17,6 +17,11 @@ Example
 --------------
 A quick example of how ListTransformer works. You can find more examples :doc:`here </examples/lister.rst>`.
 
+Links:
+- lister: :doc:`/examples/lister`
+- lister: :doc:`/examples/lister.rst`
+- lister: :doc:`/examples/lol`
+
 .. literalinclude:: ../examples/lister.py
    :language: python
    :caption: lister
