@@ -1,1 +1,4 @@
 furo
+sphinx-copybutton
+sphinx
+sphinx-autodoc-typehints
