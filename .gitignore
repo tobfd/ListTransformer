@@ -2,3 +2,8 @@
 .venv
 __pycache__
 ListTransformer/dist
+ListTransformer/poetry.lock
+ListTransformer/test.py
+ListTransformer/tests
+ListTransformer/tests/__init__.py
+ListTransformer/__init__.py
