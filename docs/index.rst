@@ -23,7 +23,6 @@ Links:
 - difference: :doc:`/examples/difference`
 - intersection: :doc:`/examples/intersection`
 - combine: :doc:`/examples/combine`
-- home: :doc:`../index`
 
 .. literalinclude:: ../examples/lister.py
    :language: python
