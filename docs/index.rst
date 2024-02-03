@@ -2,9 +2,9 @@ Getting Started
 =======================
 This page shows how to quickly get started with **ListTransformer**.
 
-- Discord:  .. _a link: https://discord.gg/MhPvQ33G9S
-- Homepage: .. _h link: https://tobfd.tech
-- Github: .. _g link: https://github.com/tobfd
+- Discord:  `Discord <https://discord.gg/MhPvQ33G9S>`_
+- Homepage: `Homepage <https://tobfd.tech>`_
+- Github: `Github <https://https://github.com/tobfd>`_
 
 Installing
 -----------
